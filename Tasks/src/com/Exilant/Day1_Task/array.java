@@ -12,7 +12,6 @@ public class array {
 			 System.out.println("enter the rows");
 			 int r=scn.nextInt();
 			
-			//int row=scn.nextInt();
 		   int[][] a=new int[r][];
 		  
 		   for(int i=0;i<a.length;i++)
@@ -28,13 +27,7 @@ public class array {
 			   a[i]=temp;
 		   }
 			 
-//			 ArrayList<Integer> list=new ArrayList<Integer>(r);
-//			for(int i=0;i<r;i++)
-//			{
-//				System.out.println("Enter Number of column for current row");
-//				int col=scn.nextInt();
-//				for()
-//			}
+
 			long sum=getSum(a);
 			System.out.println("sum="+sum);
 		}
